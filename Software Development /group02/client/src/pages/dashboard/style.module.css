@@ -1,0 +1,41 @@
+.titleRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p0 {
+    padding: 0;
+}
+.createBoard {
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+    background-color: whitesmoke;
+    color: #282c34;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.board {
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 150px 65px 10px;
+    width: 200px;
+    height: 80px;
+    background-color: #0bc3f5;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.deleteIcon {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+}

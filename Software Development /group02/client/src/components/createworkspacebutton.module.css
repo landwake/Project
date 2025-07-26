@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+}
+.dashboard {
+    z-index: 100;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #282c34;
+    width: 300px;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    box-shadow: 0 0 5px gainsboro;
+}
+.titleBar {
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 40%;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row {
+    cursor: pointer;
+}
+.titleRow {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.titleIcon {
+    font-size: 20px !important;
+}
+.titleText {
+    font-size: 12px !important;
+}
+.description {
+    font-size: 11px;
+}
